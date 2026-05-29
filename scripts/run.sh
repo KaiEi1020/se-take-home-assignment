@@ -6,7 +6,6 @@
 echo "Running CLI application..."
 
 cd "$(dirname "$0")/.."
-npm run build
 npm run start -- --headless
 
 echo "CLI application execution completed"
